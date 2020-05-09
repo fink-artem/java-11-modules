@@ -1,6 +1,6 @@
 module ru.test.controller {
 
-    opens ru.test.controller to spring.beans, spring.web;
+    exports ru.test.controller;
 
     requires ru.test.service;
     requires ru.test.dto;
