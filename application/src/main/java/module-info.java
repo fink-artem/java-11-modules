@@ -7,7 +7,6 @@ module ru.test.application {
     requires ru.test.service;
     requires ru.test.repository;
 
-    requires net.bytebuddy;
     requires spring.boot;
     requires spring.boot.autoconfigure;
 }
