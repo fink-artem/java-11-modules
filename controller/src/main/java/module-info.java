@@ -7,5 +7,5 @@ module ru.test.controller {
     requires ru.test.mapper;
 
     requires spring.web;
-    requires lombok;
+    requires static lombok;
 }
